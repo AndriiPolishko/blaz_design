@@ -9,3 +9,17 @@
     --light-purple: rgb(187, 49, 131);
 
 }
+
+header {
+    background-color: var(--dark-gray);
+    height: 20%;
+    display: flex;
+    color: var(--white);
+}
+a {
+    margin: 10px;
+}
+a, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
