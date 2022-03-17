@@ -10,15 +10,13 @@
 
 }
 
-header {
+.pageHeader {
     background-color: var(--dark-gray);
     height: 20%;
     display: flex;
     color: var(--white);
 }
-a {
-    margin: 10px;
-}
+
 a, a:visited, a:hover, a:active {
     color: white;
     text-decoration: none;
@@ -30,4 +28,8 @@ a, a:visited, a:hover, a:active {
 
 .links li {
     display: inline;
+}
+
+.links li a {
+    margin: 10px;
 }
