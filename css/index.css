@@ -10,6 +10,11 @@
 
 }
 
+body {
+    margin:0;
+    padding: 0;
+}
+
 .pageHeader {
     background-color: var(--dark-gray);
     height: 20%;
