@@ -9,3 +9,50 @@
     --light-purple: rgb(187, 49, 131);
 
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-color: var(--cyan);
+    position: relative;
+    color: var(--white);
+}
+
+.banner a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+.bannerText {
+    text-align: left;
+    margin: 5rem 0 1rem 2rem;
+    font-size: 3rem;
+}
+
+.firstPart:after {
+    content: "\a";
+    white-space: pre;
+}
+.secondPart:after {
+    content: "\a";
+    white-space: pre;
+}
+
+.blazLink {
+    margin-top: 1rem;
+    display: flex;
+    font-size: 1rem;
+
+}
+
+.linkText {
+    margin-right: 310px;
+}
