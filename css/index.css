@@ -9,3 +9,14 @@
     --light-purple: rgb(187, 49, 131);
 
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+.gallery {
+    display: flex;
+}
+.gallery img {
+    max-width: 33.33%;
+
+}
