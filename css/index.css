@@ -1,11 +1,35 @@
 :root {
     --white: rgb(255, 255, 255);
     --dark-gray: rgb(55, 60, 64);
-    --light-gray: rgb(253, 253, 254);
+    --light-gray: rgb(233, 233, 234);
     --cyan: rgb(22, 176, 195);
     --light-blue: rgb(165, 212, 222);
     --dark-purple: rgb(39, 33, 45);
     --purple: rgb(90, 15, 161);
     --light-purple: rgb(187, 49, 131);
 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    background-color: var(--light-gray);
+    padding: 1rem;
+}
+.robar{
+    color: var(--cyan);
+    font-size: 1.5rem;
+}
+.invisble {
+    color: var(--light-gray);
+    font-size: 1.5rem;
+}
+.textTable {
+    border: none;
+}
+th {
+    padding:15px;
+    text-align: start;
+    font-weight: normal;
 }
