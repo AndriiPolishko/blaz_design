@@ -7,5 +7,36 @@
     --dark-purple: rgb(39, 33, 45);
     --purple: rgb(90, 15, 161);
     --light-purple: rgb(187, 49, 131);
+    --very-light-purple: rgb(148, 132, 163);
 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+
+}
+.description {
+    width: 90%;
+    background-color: var(--dark-purple);
+    color: var(--very-light-purple);
+}
+.description p {
+    margin: 3rem;
+    font-size: 2rem;
+}
+.arrow {
+    background-color: var(--light-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+.arrow img {
+    width: 3rem;
+    max-width: 3rem;
 }
