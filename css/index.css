@@ -1,6 +1,7 @@
 :root {
     --white: rgb(255, 255, 255);
     --dark-gray: rgb(55, 60, 64);
+    --very-dark-gray: rgb(32, 37, 42);
     --light-gray: rgb(253, 253, 254);
     --cyan: rgb(22, 176, 195);
     --light-blue: rgb(165, 212, 222);
@@ -10,16 +11,10 @@
 
 }
 
-body {
+body,html {
     margin:0;
+    height: 100%;
     padding: 0;
-}
-
-.pageHeader {
-    background-color: var(--dark-gray);
-    height: 20%;
-    display: flex;
-    color: var(--white);
 }
 
 a, a:visited, a:hover, a:active {
@@ -36,5 +31,62 @@ a, a:visited, a:hover, a:active {
 }
 
 .links li a {
-    margin: 10px;
+    margin: 0.5rem;
+}
+
+.pageHeader {
+    background-color: var(--dark-gray);
+    display: flex;
+    color: var(--white);
+    height: 10%;
+}
+
+.nav {
+    visibility: hidden;
+    color: var(--white);
+}
+.menu {
+    visibility: hidden;
+}
+@media screen and (max-width: 321px) {
+    .pageHeader {
+        justify-content: space-between;
+    }
+    .menu {
+        visibility: visible;
+    }
+    .nav {
+        visibility: visible;
+        align-self: center;
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+    .menu {
+        background-color: var(--very-dark-gray);
+        width: 10%;
+        margin-left: auto;
+        display: flex;
+        justify-self: end;
+        justify-content: center;
+    }
+    .menu img {
+        max-width: 50%;
+        height: auto;
+    }
+    /*.menu {
+        background-color: var(--very-dark-gray);
+        align-self: center;
+        margin-left: auto;
+        height: 100%;
+        width: 10%;
+    }
+    .bar {
+        width: 2.5rem;
+        height: 0.4rem;
+        background-color: var(--white);
+        margin: 0.4rem 0;
+    }*/
+    .links {
+        visibility: hidden;
+    }
 }
