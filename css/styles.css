@@ -1,5 +1,6 @@
 :root {
     --white: rgb(255, 255, 255);
+    --header-font-gray: #e9e9ea;
     --dark-gray: rgb(55, 60, 64);
     --light-gray: rgb(253, 253, 254);
     --cyan: rgb(22, 176, 195);
@@ -8,4 +9,38 @@
     --purple: rgb(90, 15, 161);
     --light-purple: rgb(187, 49, 131);
 
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--dark-gray);
+}
+
+.header-container {
+    padding: 45px 55px 40px;
+}
+
+.header-links {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-links li {
+    text-transform: uppercase;
+    margin-right: 30px  ;
+    display: inline;
+}
+
+.header-links a:hover {
+    color: var(--white);
+}
+
+.header-links a {
+    font:400 15px/1 "Montserrat", Arial, Helvetica, sans-serif;
+    color: var(--header-font-gray);
+    text-decoration: none;
 }
