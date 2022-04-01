@@ -84,3 +84,12 @@
         color: var(--white);
     }
 }
+
+@media screen and (max-width: 320px) {
+    .header-container {
+        padding: 14px 19px ;
+    }
+    .fa-bars {
+        font-size: 15px;
+    }
+}
