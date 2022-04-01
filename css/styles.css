@@ -1,6 +1,7 @@
 :root {
     --white: rgb(255, 255, 255);
-    --header-font-gray: #e9e9ea;
+    --header-font-gray: #ebebeb;
+    --button-gray: #1f2529;
     --dark-gray: rgb(55, 60, 64);
     --light-gray: rgb(253, 253, 254);
     --cyan: rgb(22, 176, 195);
@@ -18,6 +19,7 @@
 
 .header {
     background-color: var(--dark-gray);
+    position: relative;
 }
 
 .header-container {
@@ -43,4 +45,42 @@
     font:400 15px/1 "Montserrat", Arial, Helvetica, sans-serif;
     color: var(--header-font-gray);
     text-decoration: none;
+}
+
+.navigation {
+    display: none;
+}
+.btn-hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 640px){
+    .header-links {
+        display: none;
+    }
+    .btn-hamburger {
+        display: inline-block;
+        background-color: var(--button-gray);
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 82px;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    .header-container {
+        padding: 28px 38px 29px;
+    }
+    .navigation {
+        display: inline;
+        color: var(--header-font-gray);
+        font:400 24px/1 "Montserrat", Arial, Helvetica, sans-serif;
+    }
+    .fa-bars {
+        font-size: 31px;
+        color: var(--white);
+    }
 }
