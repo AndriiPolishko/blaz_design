@@ -2,10 +2,46 @@
     --white: rgb(255, 255, 255);
     --dark-gray: rgb(55, 60, 64);
     --light-gray: rgb(253, 253, 254);
-    --cyan: rgb(22, 176, 195);
-    --light-blue: rgb(165, 212, 222);
+    --gradient-start: #0ca2b8;
+    --gradient-end: rgb(7,137,162);
+    --link-font: rgba(255, 255, 255, 0.5);
     --dark-purple: rgb(39, 33, 45);
     --purple: rgb(90, 15, 161);
     --light-purple: rgb(187, 49, 131);
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: linear-gradient(119deg,var(--gradient-start),var(--gradient-start));
+    color: var(--white);
+}
+
+.banner-container {
+    padding: 201px 83px 169px;
+}
+
+.banner-container a{
+    text-decoration: none ;
+    color: var(--white);
+}
+
+.headline {
+    display: inline-block;
+    font:400 60px/92.5px "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.linkText {
+    display: inline-block;
+    color: var(--link-font);
+    margin-right: 323px;
+    font: 400 34px/66.5px "Montserrat", Arial, Helvetica, sans-serif;
+}
+.bannerArrow {
+    display: inline-block;
+    font: 700 34px/66.5px "Montserrat", Arial, Helvetica, sans-serif;
 }
