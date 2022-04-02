@@ -22,7 +22,7 @@
 }
 
 .banner-container {
-    padding: 201px 83px 169px;
+    padding: 205px 83px 169px;
 }
 
 .banner-container a{
@@ -43,5 +43,23 @@
 }
 .bannerArrow {
     display: inline-block;
-    font: 700 34px/66.5px "Montserrat", Arial, Helvetica, sans-serif;
+    font: 700 36px/68.5px "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+    .banner-container {
+        padding: 192px 79px 164px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .banner-container {
+        padding: 115px 51px 105px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner-container {
+        padding: 57px 26px 53px;
+    }
 }
