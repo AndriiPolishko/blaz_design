@@ -9,3 +9,7 @@
     --light-purple: rgb(187, 49, 131);
 
 }
+* {
+    margin: 0;
+    padding: 0;
+}
