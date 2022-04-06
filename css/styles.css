@@ -7,9 +7,25 @@
     --dark-purple: rgb(39, 33, 45);
     --purple: rgb(90, 15, 161);
     --light-purple: rgb(187, 49, 131);
-
+    --container-font: rgb(146,130,160);
 }
 * {
     margin: 0;
     padding: 0;
 }
+.middle-container {
+    display: flex;
+    background-color: var(--light-purple);
+}
+.first{
+    padding: 109px 140px 103px 84px;
+    font: 400 30px/1 "Montserat", Arial, Helvetica, sans-serif;
+    background-color: var(--dark-purple);
+    color: var(--container-font);
+}
+.second {
+    padding: 109px 103px 105px 93px;
+    color: var(--white);
+    font: 700 50px/1 "Quicksand", Arial, Helvetica, sans-serif;
+}
+
