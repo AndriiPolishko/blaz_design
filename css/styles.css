@@ -13,3 +13,20 @@
     margin: 0;
     padding: 0;
 }
+
+.gallery {
+    display: flex;
+}
+.gallery img {
+    height: 294px;
+    width: 340px;
+}
+.purple-block {
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 82px 162px 140px;
+    font: 700 60px/1 "Quicksand", Arial, "Helvetica", sans-serif;
+}
+.purple-block {
+
+}
